@@ -1,0 +1,223 @@
+body, #subscribeButton {
+	background-color: white;
+	font-family: "Poiret One", sans-serif;
+	color: gray;
+}
+
+nav a, footer a, #heroText, .nav-link a {
+	color: green;
+}
+
+a {
+	text-transform: uppercase;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+
+/*
+ *	logo
+ */
+
+.logo, .logo img {
+	width: 450px;
+	height: 125px;
+}
+
+.logo {
+	display: inline-block;
+	margin: 10px;
+	opacity: .6;
+}
+
+.logo img {
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.logoText {
+	font-family: "Dancing Script", sans-serif;
+	font-size: 50px;
+	text-shadow: 2px 2px 5px white;	top: 10px;
+	left: 150px;
+	top: 70px;
+	position: absolute;
+	color: #4c4c4c;
+}
+
+
+/*
+ *	nav & footer
+ */
+
+nav ul, footer ul {
+	padding: 0;
+}
+
+nav li, footer li {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	padding-right: 10px;
+}
+
+nav li:last , footer li:last {
+	padding-right: 0;
+}
+
+nav {
+	position: absolute;
+	right: 10px;
+	top: 50px;
+}
+
+nav a {
+	text-decoration: underline;
+	padding-right: 10px;
+}
+
+nav a:last {
+	padding-right: 0;
+}
+
+.hamburger {
+	float: right;
+	width: auto;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+	background-color: gray;
+	text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand{
+	color: gray;
+	text-align: center;
+}
+
+.navbar-nav {
+	position: absolute;
+	z-index: 5;
+	background-color: rgb(255, 255, 255, 0.75);
+	height: auto;
+}
+
+.animated-icon {
+	width: 30px;
+	height: 20px;
+	position: relative;
+	margin: 0px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+
+.animated-icon span {
+	display: block;
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	border-radius: 9px;
+	opacity: 1;
+	left: 0;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-o-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+
+
+.animated-icon span {
+	background: gray;
+}
+
+
+.animated-icon span:nth-child(1) {
+	top: 0px;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+	}
+
+.animated-icon span:nth-child(2) {
+	top: 10px;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.animated-icon span:nth-child(3) {
+	top: 20px;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+}
+
+
+.animated-icon.open span:nth-child(1) {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 0px;
+	left: 8px;
+}
+
+.animated-icon.open span:nth-child(2) {
+	width: 0%;
+	opacity: 0;
+}
+
+.animated-icon.open span:nth-child(3) {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	top: 21px;
+	left: 8px;
+}        
+
+footer {
+	padding-top: 10px;
+	background-color: #ffcece;
+}
+
+footer ul {
+	padding-top: 10px;
+}
+
+.copyright, footer ul {
+	padding-left: 20px;
+	margin: 0;
+}
+
+.copyright {
+	padding-bottom: 15px;
+}
+
+#emailForm, #subscribeButton {
+	margin-top: 5px;
+}
+
